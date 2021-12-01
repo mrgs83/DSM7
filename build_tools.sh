@@ -9,7 +9,7 @@ cp sample_user_config.json bromolow_user_config.json ;
 cp sample_user_config.json apollolake_user_config.json ;
 ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt2sas/rpext-index.json ;
 ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/vmxnet3/rpext-index.json ;
-./redpill_tool_chain.sh add https://raw.githubusercontent.com/RedPill-TTG/redpill-sas-activator/master/rpext-index.json ;
+./redpill_tool_chain.sh add https://raw.githubusercontent.com/RedPill-TTG/redpill-sas-activator/master/recipes/universal.json ;
 ./redpill_tool_chain.sh build apollolake-7.0.1-42218 ;
 ./redpill_tool_chain.sh auto apollolake-7.0.1-42218 ;
 ./redpill_tool_chain.sh build bromolow-7.0.1-42218 ;
