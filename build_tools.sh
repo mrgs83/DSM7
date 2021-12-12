@@ -13,6 +13,8 @@ cp sample_user_config.json apollolake_user_config.json ;
 ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json ;
 ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/ixgbe/rpext-index.json ;
 ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/8139cp/rpext-index.json ;
+./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/rpext-index.json ;
+./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json ;
 #./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/8139too/rpext-index.json ;
 #./redpill_tool_chain.sh build apollolake-7.0.1-42218 ;
 #./redpill_tool_chain.sh auto apollolake-7.0.1-42218 ;
